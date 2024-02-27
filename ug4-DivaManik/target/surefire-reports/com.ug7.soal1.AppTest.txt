@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.ug7.soal1.AppTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in com.ug7.soal1.AppTest
+testInsufficientPay  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <-50000>
+	at com.ug7.soal1.AppTest.testInsufficientPay(AppTest.java:54)
+
+testTopup  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <9000> but was: <39000>
+	at com.ug7.soal1.AppTest.testTopup(AppTest.java:28)
+
+testTransferSPay  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4500> but was: <84500>
+	at com.ug7.soal1.AppTest.testTransferSPay(AppTest.java:75)
+
+testWithdraw  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5500> but was: <35500>
+	at com.ug7.soal1.AppTest.testWithdraw(AppTest.java:82)
+
+testInsufficientTopup  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <-51000>
+	at com.ug7.soal1.AppTest.testInsufficientTopup(AppTest.java:39)
+
